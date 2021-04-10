@@ -1,5 +1,5 @@
 
-var family = ["Liyanah", "Nusrat" , "Javeria"];
+var family = ["Liyanah","Nusrat","Javeria"];
 var familyimages = 
 [ "https://banner2.cleanpng.com/20200121/foq/transparent-cartoon-cheek-animation-toddler-child-5e273ecbbafc00.5564830415796302837659.jpg" 
 , "https://img.lovepik.com/element/40121/0007.png_860.png"
@@ -9,7 +9,7 @@ var i = 0;
 
  function  nextslide() {
  i++;
- if (i > 3 ){
+ if (i > 2 ){
      i = 0;
  }
  document.getElementById("family_book").src=familyimages[i];
